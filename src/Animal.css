@@ -30,6 +30,7 @@
         color: aliceblue;
         min-height: 1em;
         grid-area: extincao;
+        padding: 1em;
     }
 }
 
