@@ -1,4 +1,7 @@
 :root {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   place-content: center;
   min-height: 100vh;
+  line-height: 1.5;
+  font-weight: 400;
 }
