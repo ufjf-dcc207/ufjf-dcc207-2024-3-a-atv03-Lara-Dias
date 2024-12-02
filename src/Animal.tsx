@@ -9,9 +9,9 @@ interface AnimalProps{
 
 export default function Animal({icone, nome, peso, extincao}:AnimalProps){
     return <div className="animal">
-        <div>{icone}</div>
-        <div>{nome}</div>
-        <div>{peso+" Kg"}</div>
-        <div>{extincao}</div>
+        <div className="icone">{icone}</div>
+        <div className="nome">{nome}</div>
+        <div className="peso">{peso+" Kg"}</div>
+        <div className="extincao">{extincao}</div>
     </div>
 }
