@@ -2,8 +2,9 @@
     font-weight: 900;
     padding: 1em;
     display: grid;
-    grid-template-areas: "local inicio fim";
-    place-items: center;
+    grid-template-areas: 
+    "local inicio fim"
+    "animais animais animais";
 
     .inicio{
         color: darkolivegreen;
@@ -18,5 +19,11 @@
     .local{
         text-decoration:dotted;
         grid-area: local;
+    }
+
+    .animais{
+        display: grid;      
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+        grid-area: animais;  
     }
 }
