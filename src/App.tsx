@@ -36,14 +36,14 @@ function App() {
         abertura= {new Date("2024-11-05T08:00-03:00")} 
         fechamento = {new Date("2024-11-05T16:00-03:00")} 
         cercado="A1"
-        >
+        >{exA1}
         
         </Exibicao>
       <Exibicao 
         abertura= {new Date("2024-11-05T08:00-03:00")} 
         fechamento = {new Date("2024-11-05T16:00-03:00")} 
         cercado="B1"
-      >
+      >{exB2}
         
       </Exibicao>
     </div>
